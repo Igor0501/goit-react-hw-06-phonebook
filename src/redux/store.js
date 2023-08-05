@@ -35,7 +35,7 @@ export const store = configureStore({
       },
     }),
 });
-
+// дані з локал сторіджа потрапляли відразу в redux під час завантаження
 export const persistor = persistStore(store);
 
 
