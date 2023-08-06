@@ -79,6 +79,7 @@ const Form = () => {
           onChange={onInputChange}
         />
       </Lable>
+      
       <Lable>
         Number
         <Input
